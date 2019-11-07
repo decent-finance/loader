@@ -36,7 +36,6 @@ workflows:
   version: 2.1
   build:
     jobs:
-      - test
       - approve_publish:
           type: approval
           filters:
